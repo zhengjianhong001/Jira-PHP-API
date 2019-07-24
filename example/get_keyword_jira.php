@@ -1,8 +1,8 @@
 <?php
     require '../src/vendor/autoload.php';
-    require_once 'config/keyword_conf_server.php';
+    require_once 'config/config.php';
     require_once 'config/pg_conn.php';
-    require_once 'config/keyword_fun.php';
+    require_once 'config/func.php';
 
     use chobie\Jira\Api;
     use chobie\Jira\Api\Authentication\Basic;
